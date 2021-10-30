@@ -61,6 +61,16 @@
     font-size: 13px;
     font-weight: bold;
 }
+.grid-item a :hover {
+    text-decoration: none;
+
+}
+
+#change:hover,active,visited{
+    text-decoration: none;
+    color: rgb(131, 113, 231);
+}
+
 .plan .grid-item h2  {
     font-size: 15px;
     font-weight: bold;
@@ -104,11 +114,14 @@
     text-decoration: none;
     padding: 20px;
     text-align: center;
-
 }
 .cancelOrder h2 {
-    font-size: 16px;
+    font-size: 15px;
     color: var(--DesaturatedBlue);
+}
+.cancelOrder h2 :hover {
+    transition-duration: 0.4s;
+    color: rgb(22, 22, 22);
 }
 .illustration-hero{
     width: 320px;
@@ -125,7 +138,7 @@
     text-decoration: none;
     width: 300px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
     margin: 0 25px 0 25px;
@@ -137,6 +150,11 @@
 .button1 {
     box-shadow: 0 8px 16px 0 rgba(38, 0, 255, 0.192), 0 6px 20px 0 rgba(38, 0, 255, 0.116);
 }
+
+.button:hover {
+    background-color: rgb(131, 113, 231);
+}
+
 .centerButton{
     display: flex;
     align-items: center;
